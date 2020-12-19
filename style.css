@@ -14,17 +14,24 @@ p {
     text-align: center;
 }
 button {
-    padding: 5px;
+    font-size: 200%;
+    padding: 15px;
     background-color: #5396e4;
     color: white;
-    height: 40px;
+    height: auto;
+    width: auto;
     border-radius: 4%;
-    right: 50%;
-    position: center;
-    bottom: 0%;
+}
+button:hover{
+    border-style: solid;
+    border-width: 3px;
+    border-color: aqua;
 }
 .bigcontainer{
     padding-top: 100px;
 
+}
+.counter {
+    font-size: 150%;
 }
 
